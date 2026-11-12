@@ -1,0 +1,1967 @@
+{
+  "version": 1,
+  "program": "product-design-daily",
+  "total_sessions": 90,
+  "sessions": [
+    {
+      "day": 1,
+      "id": "P01",
+      "week": 1,
+      "kind": "lesson",
+      "track": "product",
+      "level": "基础",
+      "week_theme": "发现问题与建立视觉判断",
+      "title": "问题与功能请求：先定义问题",
+      "objective": "识别需求表述与真正待解决的问题",
+      "key_question": "用户说“加一个导出按钮”，真正需求是什么？",
+      "scenario": "企业表格用户频繁复制数据给同事",
+      "source_ids": [
+        "govprinciples",
+        "gov",
+        "nng"
+      ],
+      "prerequisites": []
+    },
+    {
+      "day": 2,
+      "id": "U01",
+      "week": 1,
+      "kind": "lesson",
+      "track": "ux",
+      "level": "基础",
+      "week_theme": "发现问题与建立视觉判断",
+      "title": "系统状态可见性",
+      "objective": "为用户操作设计及时且适当的状态反馈",
+      "key_question": "什么时候需要反馈、什么反馈才够？",
+      "scenario": "保存订单的接口耗时三秒",
+      "source_ids": [
+        "nng",
+        "gov",
+        "hig"
+      ],
+      "prerequisites": []
+    },
+    {
+      "day": 3,
+      "id": "V01",
+      "week": 1,
+      "kind": "lesson",
+      "track": "visual",
+      "level": "基础",
+      "week_theme": "发现问题与建立视觉判断",
+      "title": "视觉层级与阅读顺序",
+      "objective": "用大小、对比、位置组织信息优先级",
+      "key_question": "用户第一眼应看到什么？",
+      "scenario": "一张包含标题、摘要、金额和操作的业务卡片",
+      "source_ids": [
+        "hig",
+        "material",
+        "wcag"
+      ],
+      "prerequisites": []
+    },
+    {
+      "day": 4,
+      "id": "P02",
+      "week": 1,
+      "kind": "lesson",
+      "track": "product",
+      "level": "基础",
+      "week_theme": "发现问题与建立视觉判断",
+      "title": "用户、角色与使用情境",
+      "objective": "区分购买者、使用者和不同任务情境",
+      "key_question": "同一功能对不同角色价值是否相同？",
+      "scenario": "仓库操作员与财务主管使用同一系统",
+      "source_ids": [
+        "govprinciples",
+        "gov",
+        "nng"
+      ],
+      "prerequisites": [
+        "P01"
+      ]
+    },
+    {
+      "day": 5,
+      "id": "U02",
+      "week": 1,
+      "kind": "lesson",
+      "track": "ux",
+      "level": "基础",
+      "week_theme": "发现问题与建立视觉判断",
+      "title": "操作反馈与结果反馈",
+      "objective": "区分接收、处理中、成功、失败四种状态",
+      "key_question": "加载中和成功提示应该同时出现吗？",
+      "scenario": "点击“提交审核”后可能失败",
+      "source_ids": [
+        "nng",
+        "gov",
+        "hig"
+      ],
+      "prerequisites": [
+        "U01"
+      ]
+    },
+    {
+      "day": 6,
+      "id": "V02",
+      "week": 1,
+      "kind": "lesson",
+      "track": "visual",
+      "level": "基础",
+      "week_theme": "发现问题与建立视觉判断",
+      "title": "对齐与视觉秩序",
+      "objective": "通过一致对齐提升可扫描性",
+      "key_question": "哪些错位会增加阅读负担？",
+      "scenario": "有标签、输入框和辅助文案的表单",
+      "source_ids": [
+        "hig",
+        "material",
+        "wcag"
+      ],
+      "prerequisites": [
+        "V01"
+      ]
+    },
+    {
+      "day": 7,
+      "id": "R01",
+      "week": 1,
+      "kind": "review",
+      "track": "integrated",
+      "level": "复盘",
+      "week_theme": "发现问题与建立视觉判断",
+      "title": "第 1 周复盘：发现问题与建立视觉判断",
+      "objective": "检验一周六项知识在实际场景中的迁移能力",
+      "key_question": "哪些设计决策有依据，哪些只是直觉？",
+      "scenario": "选择一个通用 Web 产品流程，审视产品目标、交互风险与视觉层级",
+      "source_ids": [
+        "nng",
+        "hig",
+        "gov"
+      ],
+      "prerequisites": [
+        "P01",
+        "U01",
+        "V01",
+        "P02",
+        "U02",
+        "V02"
+      ]
+    },
+    {
+      "day": 8,
+      "id": "P03",
+      "week": 2,
+      "kind": "lesson",
+      "track": "product",
+      "level": "基础",
+      "week_theme": "认识用户与理解认知",
+      "title": "用户任务与 JTBD",
+      "objective": "把描述性需求转成任务、动机和成功标准",
+      "key_question": "用户雇用这个产品完成什么工作？",
+      "scenario": "用户希望在出发前完成价格比较",
+      "source_ids": [
+        "govprinciples",
+        "gov",
+        "nng"
+      ],
+      "prerequisites": [
+        "P02"
+      ]
+    },
+    {
+      "day": 9,
+      "id": "U03",
+      "week": 2,
+      "kind": "lesson",
+      "track": "ux",
+      "level": "基础",
+      "week_theme": "认识用户与理解认知",
+      "title": "识别优于回忆",
+      "objective": "减少用户记忆负担并提供可见线索",
+      "key_question": "何时应该展示历史、建议或上下文？",
+      "scenario": "查询页反复输入相同筛选条件",
+      "source_ids": [
+        "nng",
+        "gov",
+        "hig"
+      ],
+      "prerequisites": [
+        "U02"
+      ]
+    },
+    {
+      "day": 10,
+      "id": "V03",
+      "week": 2,
+      "kind": "lesson",
+      "track": "visual",
+      "level": "基础",
+      "week_theme": "认识用户与理解认知",
+      "title": "间距、亲密性与分组",
+      "objective": "用空间关系表达信息结构",
+      "key_question": "哪些内容应该被看作同一组？",
+      "scenario": "详情页有六个业务分区",
+      "source_ids": [
+        "hig",
+        "material",
+        "wcag"
+      ],
+      "prerequisites": [
+        "V02"
+      ]
+    },
+    {
+      "day": 11,
+      "id": "P04",
+      "week": 2,
+      "kind": "lesson",
+      "track": "product",
+      "level": "基础",
+      "week_theme": "认识用户与理解认知",
+      "title": "用户旅程与任务节点",
+      "objective": "描述任务从触发到完成的关键步骤和痛点",
+      "key_question": "哪个节点值得优先优化？",
+      "scenario": "用户从询价到确认订单",
+      "source_ids": [
+        "govprinciples",
+        "gov",
+        "nng"
+      ],
+      "prerequisites": [
+        "P03"
+      ]
+    },
+    {
+      "day": 12,
+      "id": "U04",
+      "week": 2,
+      "kind": "lesson",
+      "track": "ux",
+      "level": "基础",
+      "week_theme": "认识用户与理解认知",
+      "title": "错误预防优于错误提示",
+      "objective": "在关键输入和不可逆动作之前降低出错概率",
+      "key_question": "怎样在错误发生前防止它？",
+      "scenario": "提交订单时填错目的港",
+      "source_ids": [
+        "nng",
+        "gov",
+        "hig"
+      ],
+      "prerequisites": [
+        "U03"
+      ]
+    },
+    {
+      "day": 13,
+      "id": "V04",
+      "week": 2,
+      "kind": "lesson",
+      "track": "visual",
+      "level": "基础",
+      "week_theme": "认识用户与理解认知",
+      "title": "排版基础：字号、行高与字重",
+      "objective": "设计可读、可扫读的文字层级",
+      "key_question": "什么时候不该再缩小字体？",
+      "scenario": "信息密集的后台列表页",
+      "source_ids": [
+        "hig",
+        "material",
+        "wcag"
+      ],
+      "prerequisites": [
+        "V03"
+      ]
+    },
+    {
+      "day": 14,
+      "id": "R02",
+      "week": 2,
+      "kind": "review",
+      "track": "integrated",
+      "level": "复盘",
+      "week_theme": "认识用户与理解认知",
+      "title": "第 2 周复盘：认识用户与理解认知",
+      "objective": "检验一周六项知识在实际场景中的迁移能力",
+      "key_question": "哪些设计决策有依据，哪些只是直觉？",
+      "scenario": "选择一个通用 Web 产品流程，审视产品目标、交互风险与视觉层级",
+      "source_ids": [
+        "nng",
+        "hig",
+        "gov"
+      ],
+      "prerequisites": [
+        "P03",
+        "U03",
+        "V03",
+        "P04",
+        "U04",
+        "V04"
+      ]
+    },
+    {
+      "day": 15,
+      "id": "P05",
+      "week": 3,
+      "kind": "lesson",
+      "track": "product",
+      "level": "基础",
+      "week_theme": "从证据到结构",
+      "title": "访谈与行为证据",
+      "objective": "区分用户意见、实际行为和推断",
+      "key_question": "访谈提问怎样避免诱导？",
+      "scenario": "用户抱怨系统慢但真实原因不明",
+      "source_ids": [
+        "govprinciples",
+        "gov",
+        "nng"
+      ],
+      "prerequisites": [
+        "P04"
+      ]
+    },
+    {
+      "day": 16,
+      "id": "U05",
+      "week": 3,
+      "kind": "lesson",
+      "track": "ux",
+      "level": "基础",
+      "week_theme": "从证据到结构",
+      "title": "可供性、示能与操作暗示",
+      "objective": "判断控件是否能被用户理解和发现",
+      "key_question": "可点击是否必须“长得像按钮”？",
+      "scenario": "一行操作只有三个图标",
+      "source_ids": [
+        "nng",
+        "gov",
+        "hig"
+      ],
+      "prerequisites": [
+        "U04"
+      ]
+    },
+    {
+      "day": 17,
+      "id": "V05",
+      "week": 3,
+      "kind": "lesson",
+      "track": "visual",
+      "level": "基础",
+      "week_theme": "从证据到结构",
+      "title": "文字与界面对比度",
+      "objective": "合理设计可读性和非文本状态对比",
+      "key_question": "颜色好看为什么仍可能难用？",
+      "scenario": "浅灰文字与淡色输入框",
+      "source_ids": [
+        "wcag",
+        "nng"
+      ],
+      "prerequisites": [
+        "V04"
+      ]
+    },
+    {
+      "day": 18,
+      "id": "P06",
+      "week": 3,
+      "kind": "lesson",
+      "track": "product",
+      "level": "基础",
+      "week_theme": "从证据到结构",
+      "title": "用户故事与验收条件",
+      "objective": "以角色、目标、价值及验证标准表述需求",
+      "key_question": "怎样判断需求真的做完？",
+      "scenario": "新增一个批量查询功能",
+      "source_ids": [
+        "govprinciples",
+        "gov",
+        "nng"
+      ],
+      "prerequisites": [
+        "P05"
+      ]
+    },
+    {
+      "day": 19,
+      "id": "U06",
+      "week": 3,
+      "kind": "lesson",
+      "track": "ux",
+      "level": "基础",
+      "week_theme": "从证据到结构",
+      "title": "心智模型与交互映射",
+      "objective": "让操作方式贴近用户预期",
+      "key_question": "为什么一个开关标签会产生歧义？",
+      "scenario": "通知设置与启用/禁用状态",
+      "source_ids": [
+        "nng",
+        "gov",
+        "hig"
+      ],
+      "prerequisites": [
+        "U05"
+      ]
+    },
+    {
+      "day": 20,
+      "id": "V06",
+      "week": 3,
+      "kind": "lesson",
+      "track": "visual",
+      "level": "基础",
+      "week_theme": "从证据到结构",
+      "title": "格式塔原则与邻近分组",
+      "objective": "识别视觉分组对任务理解的影响",
+      "key_question": "边框越多是否越清楚？",
+      "scenario": "多区块仪表盘",
+      "source_ids": [
+        "hig",
+        "material",
+        "wcag"
+      ],
+      "prerequisites": [
+        "V05"
+      ]
+    },
+    {
+      "day": 21,
+      "id": "R03",
+      "week": 3,
+      "kind": "review",
+      "track": "integrated",
+      "level": "复盘",
+      "week_theme": "从证据到结构",
+      "title": "第 3 周复盘：从证据到结构",
+      "objective": "检验一周六项知识在实际场景中的迁移能力",
+      "key_question": "哪些设计决策有依据，哪些只是直觉？",
+      "scenario": "选择一个通用 Web 产品流程，审视产品目标、交互风险与视觉层级",
+      "source_ids": [
+        "nng",
+        "hig",
+        "gov"
+      ],
+      "prerequisites": [
+        "P05",
+        "U05",
+        "V05",
+        "P06",
+        "U06",
+        "V06"
+      ]
+    },
+    {
+      "day": 22,
+      "id": "P07",
+      "week": 4,
+      "kind": "lesson",
+      "track": "product",
+      "level": "基础",
+      "week_theme": "形成清晰决策",
+      "title": "需求优先级与机会成本",
+      "objective": "用价值、证据、成本和风险比较需求",
+      "key_question": "高频小问题与低频大问题如何排序？",
+      "scenario": "迭代只能做两项优化",
+      "source_ids": [
+        "govprinciples",
+        "gov",
+        "nng"
+      ],
+      "prerequisites": [
+        "P06"
+      ]
+    },
+    {
+      "day": 23,
+      "id": "U07",
+      "week": 4,
+      "kind": "lesson",
+      "track": "ux",
+      "level": "基础",
+      "week_theme": "形成清晰决策",
+      "title": "一致性与遵循惯例",
+      "objective": "理解系统内部一致和外部惯例的区别",
+      "key_question": "何时创新会使操作更难？",
+      "scenario": "各模块“确认”“确定”“保存”混用",
+      "source_ids": [
+        "nng",
+        "gov",
+        "hig"
+      ],
+      "prerequisites": [
+        "U06"
+      ]
+    },
+    {
+      "day": 24,
+      "id": "V07",
+      "week": 4,
+      "kind": "lesson",
+      "track": "visual",
+      "level": "基础",
+      "week_theme": "形成清晰决策",
+      "title": "语义色与功能色",
+      "objective": "建立主色、反馈色、危险色的清晰职责",
+      "key_question": "需要多少种按钮颜色才够？",
+      "scenario": "保存、撤销、删除、刷新等动作",
+      "source_ids": [
+        "hig",
+        "material",
+        "wcag"
+      ],
+      "prerequisites": [
+        "V06"
+      ]
+    },
+    {
+      "day": 25,
+      "id": "P08",
+      "week": 4,
+      "kind": "lesson",
+      "track": "product",
+      "level": "基础",
+      "week_theme": "形成清晰决策",
+      "title": "产品指标与成功判据",
+      "objective": "定义能证实改善的行为指标",
+      "key_question": "点击率升高就代表体验改善吗？",
+      "scenario": "优化批量录入后如何衡量效果",
+      "source_ids": [
+        "govprinciples",
+        "gov",
+        "nng"
+      ],
+      "prerequisites": [
+        "P07"
+      ]
+    },
+    {
+      "day": 26,
+      "id": "U08",
+      "week": 4,
+      "kind": "lesson",
+      "track": "ux",
+      "level": "基础",
+      "week_theme": "形成清晰决策",
+      "title": "导航、定位与返回路径",
+      "objective": "提供清晰当前位置和可恢复的任务路径",
+      "key_question": "复杂页面如何让用户不迷路？",
+      "scenario": "列表到详情再到编辑",
+      "source_ids": [
+        "nng",
+        "gov",
+        "hig"
+      ],
+      "prerequisites": [
+        "U07"
+      ]
+    },
+    {
+      "day": 27,
+      "id": "V08",
+      "week": 4,
+      "kind": "lesson",
+      "track": "visual",
+      "level": "基础",
+      "week_theme": "形成清晰决策",
+      "title": "信息密度与可扫描性",
+      "objective": "平衡单位空间信息量与辨识效率",
+      "key_question": "高密度是否意味着小字体和零留白？",
+      "scenario": "1280px 宽的表格界面",
+      "source_ids": [
+        "hig",
+        "material",
+        "wcag"
+      ],
+      "prerequisites": [
+        "V07"
+      ]
+    },
+    {
+      "day": 28,
+      "id": "R04",
+      "week": 4,
+      "kind": "review",
+      "track": "integrated",
+      "level": "复盘",
+      "week_theme": "形成清晰决策",
+      "title": "第 4 周复盘：形成清晰决策",
+      "objective": "检验一周六项知识在实际场景中的迁移能力",
+      "key_question": "哪些设计决策有依据，哪些只是直觉？",
+      "scenario": "选择一个通用 Web 产品流程，审视产品目标、交互风险与视觉层级",
+      "source_ids": [
+        "nng",
+        "hig",
+        "gov"
+      ],
+      "prerequisites": [
+        "P07",
+        "U07",
+        "V07",
+        "P08",
+        "U08",
+        "V08"
+      ]
+    },
+    {
+      "day": 29,
+      "id": "P09",
+      "week": 5,
+      "kind": "lesson",
+      "track": "product",
+      "level": "进阶",
+      "week_theme": "产品边界与常见组件",
+      "title": "MVP 范围与假设",
+      "objective": "明确最小可验证价值而非简单减功能",
+      "key_question": "哪些功能是核心、哪些可以延后？",
+      "scenario": "新建一个内部报表工具",
+      "source_ids": [
+        "govprinciples",
+        "gov",
+        "nng"
+      ],
+      "prerequisites": [
+        "P08"
+      ]
+    },
+    {
+      "day": 30,
+      "id": "U09",
+      "week": 5,
+      "kind": "lesson",
+      "track": "ux",
+      "level": "进阶",
+      "week_theme": "产品边界与常见组件",
+      "title": "表格行操作显隐策略",
+      "objective": "设计高频、低频、危险动作的优先级",
+      "key_question": "图标按钮和文字按钮如何取舍？",
+      "scenario": "数据表每行有八项操作",
+      "source_ids": [
+        "nng",
+        "gov",
+        "hig"
+      ],
+      "prerequisites": [
+        "U08"
+      ]
+    },
+    {
+      "day": 31,
+      "id": "V09",
+      "week": 5,
+      "kind": "lesson",
+      "track": "visual",
+      "level": "进阶",
+      "week_theme": "产品边界与常见组件",
+      "title": "表格的视觉层级",
+      "objective": "提升表头、数值、状态、操作的扫描效率",
+      "key_question": "如何避免表格每格都同样抢眼？",
+      "scenario": "多币种应收结算表",
+      "source_ids": [
+        "hig",
+        "material",
+        "wcag"
+      ],
+      "prerequisites": [
+        "V08"
+      ]
+    },
+    {
+      "day": 32,
+      "id": "P10",
+      "week": 5,
+      "kind": "lesson",
+      "track": "product",
+      "level": "进阶",
+      "week_theme": "产品边界与常见组件",
+      "title": "画像与证据强度",
+      "objective": "区分研究得来的画像和假设画像",
+      "key_question": "画像是否真的帮助决策？",
+      "scenario": "两类操作员有不同使用习惯",
+      "source_ids": [
+        "govprinciples",
+        "gov",
+        "nng"
+      ],
+      "prerequisites": [
+        "P09"
+      ]
+    },
+    {
+      "day": 33,
+      "id": "U10",
+      "week": 5,
+      "kind": "lesson",
+      "track": "ux",
+      "level": "进阶",
+      "week_theme": "产品边界与常见组件",
+      "title": "表单标签、校验与错误定位",
+      "objective": "让用户知道填什么、哪里错、如何修复",
+      "key_question": "校验应该何时触发？",
+      "scenario": "带必填与跨字段校验的表单",
+      "source_ids": [
+        "nng",
+        "gov",
+        "hig"
+      ],
+      "prerequisites": [
+        "U09"
+      ]
+    },
+    {
+      "day": 34,
+      "id": "V10",
+      "week": 5,
+      "kind": "lesson",
+      "track": "visual",
+      "level": "进阶",
+      "week_theme": "产品边界与常见组件",
+      "title": "表单视觉一致性",
+      "objective": "协调标签、输入、说明、错误和按钮",
+      "key_question": "控件尺寸是否应该按位置随意切换？",
+      "scenario": "长详情表单内嵌多个小表格",
+      "source_ids": [
+        "hig",
+        "material",
+        "wcag"
+      ],
+      "prerequisites": [
+        "V09"
+      ]
+    },
+    {
+      "day": 35,
+      "id": "R05",
+      "week": 5,
+      "kind": "review",
+      "track": "integrated",
+      "level": "复盘",
+      "week_theme": "产品边界与常见组件",
+      "title": "第 5 周复盘：产品边界与常见组件",
+      "objective": "检验一周六项知识在实际场景中的迁移能力",
+      "key_question": "哪些设计决策有依据，哪些只是直觉？",
+      "scenario": "选择一个通用 Web 产品流程，审视产品目标、交互风险与视觉层级",
+      "source_ids": [
+        "nng",
+        "hig",
+        "gov"
+      ],
+      "prerequisites": [
+        "P09",
+        "U09",
+        "V09",
+        "P10",
+        "U10",
+        "V10"
+      ]
+    },
+    {
+      "day": 36,
+      "id": "P11",
+      "week": 6,
+      "kind": "lesson",
+      "track": "product",
+      "level": "进阶",
+      "week_theme": "查找与组织复杂任务",
+      "title": "信息架构与对象模型",
+      "objective": "区分业务实体、页面结构和导航结构",
+      "key_question": "一个标签页代表对象还是任务？",
+      "scenario": "客户、订单、账单相互关联",
+      "source_ids": [
+        "govprinciples",
+        "gov",
+        "nng"
+      ],
+      "prerequisites": [
+        "P10"
+      ]
+    },
+    {
+      "day": 37,
+      "id": "U11",
+      "week": 6,
+      "kind": "lesson",
+      "track": "ux",
+      "level": "进阶",
+      "week_theme": "查找与组织复杂任务",
+      "title": "搜索、筛选、排序的边界",
+      "objective": "区分三种操作在任务中的作用",
+      "key_question": "用户希望精确查找还是探索？",
+      "scenario": "大数据列表支持字段组合查询",
+      "source_ids": [
+        "nng",
+        "gov",
+        "hig"
+      ],
+      "prerequisites": [
+        "U10"
+      ]
+    },
+    {
+      "day": 38,
+      "id": "V11",
+      "week": 6,
+      "kind": "lesson",
+      "track": "visual",
+      "level": "进阶",
+      "week_theme": "查找与组织复杂任务",
+      "title": "响应式栅格与断点思维",
+      "objective": "按内容与任务需求规划宽度变化",
+      "key_question": "断点应该由设备型号决定吗？",
+      "scenario": "同一列表在桌面与手机显示",
+      "source_ids": [
+        "hig",
+        "material",
+        "wcag"
+      ],
+      "prerequisites": [
+        "V10"
+      ]
+    },
+    {
+      "day": 39,
+      "id": "P12",
+      "week": 6,
+      "kind": "lesson",
+      "track": "product",
+      "level": "进阶",
+      "week_theme": "查找与组织复杂任务",
+      "title": "任务流程图与例外分支",
+      "objective": "描述正常路径、失败路径和恢复路径",
+      "key_question": "哪些分支必须在需求阶段画出来？",
+      "scenario": "询价提交后可能需二次审批",
+      "source_ids": [
+        "govprinciples",
+        "gov",
+        "nng"
+      ],
+      "prerequisites": [
+        "P11"
+      ]
+    },
+    {
+      "day": 40,
+      "id": "U12",
+      "week": 6,
+      "kind": "lesson",
+      "track": "ux",
+      "level": "进阶",
+      "week_theme": "查找与组织复杂任务",
+      "title": "批量输入与粘贴交互",
+      "objective": "兼顾快速粘贴、数量反馈与纠错能力",
+      "key_question": "多单号录入是否需要全部展示？",
+      "scenario": "一次粘贴两百个单号",
+      "source_ids": [
+        "nng",
+        "gov",
+        "hig"
+      ],
+      "prerequisites": [
+        "U11"
+      ]
+    },
+    {
+      "day": 41,
+      "id": "V12",
+      "week": 6,
+      "kind": "lesson",
+      "track": "visual",
+      "level": "进阶",
+      "week_theme": "查找与组织复杂任务",
+      "title": "按钮的动作层级",
+      "objective": "建立主次按钮与危险动作的视觉关系",
+      "key_question": "一个作用域里有多个主按钮会怎样？",
+      "scenario": "查询、重置、导出、新建并存",
+      "source_ids": [
+        "hig",
+        "material",
+        "wcag"
+      ],
+      "prerequisites": [
+        "V11"
+      ]
+    },
+    {
+      "day": 42,
+      "id": "R06",
+      "week": 6,
+      "kind": "review",
+      "track": "integrated",
+      "level": "复盘",
+      "week_theme": "查找与组织复杂任务",
+      "title": "第 6 周复盘：查找与组织复杂任务",
+      "objective": "检验一周六项知识在实际场景中的迁移能力",
+      "key_question": "哪些设计决策有依据，哪些只是直觉？",
+      "scenario": "选择一个通用 Web 产品流程，审视产品目标、交互风险与视觉层级",
+      "source_ids": [
+        "nng",
+        "hig",
+        "gov"
+      ],
+      "prerequisites": [
+        "P11",
+        "U11",
+        "V11",
+        "P12",
+        "U12",
+        "V12"
+      ]
+    },
+    {
+      "day": 43,
+      "id": "P13",
+      "week": 7,
+      "kind": "lesson",
+      "track": "product",
+      "level": "进阶",
+      "week_theme": "文案、边界与保护",
+      "title": "文案是产品契约",
+      "objective": "让操作名称表达结果而非内部术语",
+      "key_question": "按钮名怎样减少误解？",
+      "scenario": "确认、保存、提交审核的含义不同",
+      "source_ids": [
+        "govprinciples",
+        "gov",
+        "nng"
+      ],
+      "prerequisites": [
+        "P12"
+      ]
+    },
+    {
+      "day": 44,
+      "id": "U13",
+      "week": 7,
+      "kind": "lesson",
+      "track": "ux",
+      "level": "进阶",
+      "week_theme": "文案、边界与保护",
+      "title": "删除与危险操作确认",
+      "objective": "区分可逆、可恢复和不可逆操作",
+      "key_question": "哪些删除需要二次确认？",
+      "scenario": "删除草稿与撤销已审核账单",
+      "source_ids": [
+        "nng",
+        "gov",
+        "hig"
+      ],
+      "prerequisites": [
+        "U12"
+      ]
+    },
+    {
+      "day": 45,
+      "id": "V13",
+      "week": 7,
+      "kind": "lesson",
+      "track": "visual",
+      "level": "进阶",
+      "week_theme": "文案、边界与保护",
+      "title": "弹窗与抽屉的视觉结构",
+      "objective": "明确标题、主体、辅助说明和页脚层级",
+      "key_question": "弹窗什么时候显得拥挤？",
+      "scenario": "一个内容较多的可编辑抽屉",
+      "source_ids": [
+        "hig",
+        "material",
+        "wcag"
+      ],
+      "prerequisites": [
+        "V12"
+      ]
+    },
+    {
+      "day": 46,
+      "id": "P14",
+      "week": 7,
+      "kind": "lesson",
+      "track": "product",
+      "level": "进阶",
+      "week_theme": "文案、边界与保护",
+      "title": "边界条件与异常需求",
+      "objective": "让空值、权限、并发、离线等进入需求范围",
+      "key_question": "正常流程之外还有哪些用户任务？",
+      "scenario": "保存中关闭页面",
+      "source_ids": [
+        "govprinciples",
+        "gov",
+        "nng"
+      ],
+      "prerequisites": [
+        "P13"
+      ]
+    },
+    {
+      "day": 47,
+      "id": "U14",
+      "week": 7,
+      "kind": "lesson",
+      "track": "ux",
+      "level": "进阶",
+      "week_theme": "文案、边界与保护",
+      "title": "未保存变更与离开保护",
+      "objective": "设计脏数据识别、离开确认和恢复路径",
+      "key_question": "关闭弹窗前什么时候应该阻止？",
+      "scenario": "编辑了三项字段却点击关闭",
+      "source_ids": [
+        "nng",
+        "gov",
+        "hig"
+      ],
+      "prerequisites": [
+        "U13"
+      ]
+    },
+    {
+      "day": 48,
+      "id": "V14",
+      "week": 7,
+      "kind": "lesson",
+      "track": "visual",
+      "level": "进阶",
+      "week_theme": "文案、边界与保护",
+      "title": "焦点、悬停、禁用、选中态",
+      "objective": "让交互状态可感知且一贯",
+      "key_question": "只改颜色能让状态被识别吗？",
+      "scenario": "键盘操作含图标的菜单",
+      "source_ids": [
+        "wcag",
+        "nng"
+      ],
+      "prerequisites": [
+        "V13"
+      ]
+    },
+    {
+      "day": 49,
+      "id": "R07",
+      "week": 7,
+      "kind": "review",
+      "track": "integrated",
+      "level": "复盘",
+      "week_theme": "文案、边界与保护",
+      "title": "第 7 周复盘：文案、边界与保护",
+      "objective": "检验一周六项知识在实际场景中的迁移能力",
+      "key_question": "哪些设计决策有依据，哪些只是直觉？",
+      "scenario": "选择一个通用 Web 产品流程，审视产品目标、交互风险与视觉层级",
+      "source_ids": [
+        "nng",
+        "hig",
+        "gov"
+      ],
+      "prerequisites": [
+        "P13",
+        "U13",
+        "V13",
+        "P14",
+        "U14",
+        "V14"
+      ]
+    },
+    {
+      "day": 50,
+      "id": "P15",
+      "week": 8,
+      "kind": "lesson",
+      "track": "product",
+      "level": "进阶",
+      "week_theme": "设计取舍与复杂搜索",
+      "title": "设计取舍与约束表达",
+      "objective": "用用户价值、风险、成本解释方案选择",
+      "key_question": "什么情况下不值得做最精致方案？",
+      "scenario": "新需求受工期与历史兼容限制",
+      "source_ids": [
+        "govprinciples",
+        "gov",
+        "nng"
+      ],
+      "prerequisites": [
+        "P14"
+      ]
+    },
+    {
+      "day": 51,
+      "id": "U15",
+      "week": 8,
+      "kind": "lesson",
+      "track": "ux",
+      "level": "进阶",
+      "week_theme": "设计取舍与复杂搜索",
+      "title": "高级筛选与查询方案",
+      "objective": "把常用与低频搜索配置有序分层",
+      "key_question": "保存筛选方案时如何处理未保存修改？",
+      "scenario": "查询页具有高级条件和查询模板",
+      "source_ids": [
+        "nng",
+        "gov",
+        "hig"
+      ],
+      "prerequisites": [
+        "U14"
+      ]
+    },
+    {
+      "day": 52,
+      "id": "V15",
+      "week": 8,
+      "kind": "lesson",
+      "track": "visual",
+      "level": "进阶",
+      "week_theme": "设计取舍与复杂搜索",
+      "title": "留白不是空白",
+      "objective": "让间距与密度服务结构和节奏",
+      "key_question": "何时增加留白反而提升效率？",
+      "scenario": "高密度列表上的操作工具栏",
+      "source_ids": [
+        "hig",
+        "material",
+        "wcag"
+      ],
+      "prerequisites": [
+        "V14"
+      ]
+    },
+    {
+      "day": 53,
+      "id": "P16",
+      "week": 8,
+      "kind": "lesson",
+      "track": "product",
+      "level": "进阶",
+      "week_theme": "设计取舍与复杂搜索",
+      "title": "跨角色需求协作",
+      "objective": "整理设计中产品、研发、运营的约束信息",
+      "key_question": "需求冲突如何变成可验证的决策？",
+      "scenario": "产品与开发对弹窗行为意见不同",
+      "source_ids": [
+        "govprinciples",
+        "gov",
+        "nng"
+      ],
+      "prerequisites": [
+        "P15"
+      ]
+    },
+    {
+      "day": 54,
+      "id": "U16",
+      "week": 8,
+      "kind": "lesson",
+      "track": "ux",
+      "level": "进阶",
+      "week_theme": "设计取舍与复杂搜索",
+      "title": "键盘导航与焦点管理",
+      "objective": "保证表单、菜单和对话框可键盘访问",
+      "key_question": "关闭弹窗后焦点该去哪里？",
+      "scenario": "弹窗有多层表单与快捷键",
+      "source_ids": [
+        "wcag",
+        "nng"
+      ],
+      "prerequisites": [
+        "U15"
+      ]
+    },
+    {
+      "day": 55,
+      "id": "V16",
+      "week": 8,
+      "kind": "lesson",
+      "track": "visual",
+      "level": "进阶",
+      "week_theme": "设计取舍与复杂搜索",
+      "title": "图标、图形与语义",
+      "objective": "判断图标何时需要文字或提示",
+      "key_question": "图标直观是否可以不写标签？",
+      "scenario": "工具栏只有图标动作",
+      "source_ids": [
+        "hig",
+        "material",
+        "wcag"
+      ],
+      "prerequisites": [
+        "V15"
+      ]
+    },
+    {
+      "day": 56,
+      "id": "R08",
+      "week": 8,
+      "kind": "review",
+      "track": "integrated",
+      "level": "复盘",
+      "week_theme": "设计取舍与复杂搜索",
+      "title": "第 8 周复盘：设计取舍与复杂搜索",
+      "objective": "检验一周六项知识在实际场景中的迁移能力",
+      "key_question": "哪些设计决策有依据，哪些只是直觉？",
+      "scenario": "选择一个通用 Web 产品流程，审视产品目标、交互风险与视觉层级",
+      "source_ids": [
+        "nng",
+        "hig",
+        "gov"
+      ],
+      "prerequisites": [
+        "P15",
+        "U15",
+        "V15",
+        "P16",
+        "U16",
+        "V16"
+      ]
+    },
+    {
+      "day": 57,
+      "id": "P17",
+      "week": 9,
+      "kind": "lesson",
+      "track": "product",
+      "level": "综合",
+      "week_theme": "用户验证与多步骤流程",
+      "title": "竞品研究与设计借鉴",
+      "objective": "区分竞品表象、约束和验证证据",
+      "key_question": "别人这么做为什么不等于我们该做？",
+      "scenario": "同类系统展示不同的操作栏",
+      "source_ids": [
+        "govprinciples",
+        "gov",
+        "nng"
+      ],
+      "prerequisites": [
+        "P16"
+      ]
+    },
+    {
+      "day": 58,
+      "id": "U17",
+      "week": 9,
+      "kind": "lesson",
+      "track": "ux",
+      "level": "综合",
+      "week_theme": "用户验证与多步骤流程",
+      "title": "批量选择与批量操作",
+      "objective": "设计选择状态、跨页范围和失败反馈",
+      "key_question": "全选代表本页还是全部结果？",
+      "scenario": "表格跨页批量修改状态",
+      "source_ids": [
+        "nng",
+        "gov",
+        "hig"
+      ],
+      "prerequisites": [
+        "U16"
+      ]
+    },
+    {
+      "day": 59,
+      "id": "V17",
+      "week": 9,
+      "kind": "lesson",
+      "track": "visual",
+      "level": "综合",
+      "week_theme": "用户验证与多步骤流程",
+      "title": "侧栏、内容区与主次导航",
+      "objective": "优化宽屏信息结构与视觉重心",
+      "key_question": "导航宽度如何由任务决定？",
+      "scenario": "多模块 B2B 平台的侧边菜单",
+      "source_ids": [
+        "hig",
+        "material",
+        "wcag"
+      ],
+      "prerequisites": [
+        "V16"
+      ]
+    },
+    {
+      "day": 60,
+      "id": "P18",
+      "week": 9,
+      "kind": "lesson",
+      "track": "product",
+      "level": "综合",
+      "week_theme": "用户验证与多步骤流程",
+      "title": "假设、实验与因果判断",
+      "objective": "构建可否证的假设并识别混杂因素",
+      "key_question": "改版后的转化率变化说明了什么？",
+      "scenario": "表单优化后提交率提升",
+      "source_ids": [
+        "govprinciples",
+        "gov",
+        "nng"
+      ],
+      "prerequisites": [
+        "P17"
+      ]
+    },
+    {
+      "day": 61,
+      "id": "U18",
+      "week": 9,
+      "kind": "lesson",
+      "track": "ux",
+      "level": "综合",
+      "week_theme": "用户验证与多步骤流程",
+      "title": "撤销、重试与补救路径",
+      "objective": "按可逆性选择撤销、确认和重试策略",
+      "key_question": "什么时候应该用撤销替代确认？",
+      "scenario": "误操作批量归档",
+      "source_ids": [
+        "nng",
+        "gov",
+        "hig"
+      ],
+      "prerequisites": [
+        "U17"
+      ]
+    },
+    {
+      "day": 62,
+      "id": "V18",
+      "week": 9,
+      "kind": "lesson",
+      "track": "visual",
+      "level": "综合",
+      "week_theme": "用户验证与多步骤流程",
+      "title": "节奏、一致性与视觉噪声",
+      "objective": "控制重复样式和局部强调数量",
+      "key_question": "为什么所有模块都有底色会很吵？",
+      "scenario": "一页多个信息卡与统计块",
+      "source_ids": [
+        "hig",
+        "material",
+        "wcag"
+      ],
+      "prerequisites": [
+        "V17"
+      ]
+    },
+    {
+      "day": 63,
+      "id": "R09",
+      "week": 9,
+      "kind": "review",
+      "track": "integrated",
+      "level": "复盘",
+      "week_theme": "用户验证与多步骤流程",
+      "title": "第 9 周复盘：用户验证与多步骤流程",
+      "objective": "检验一周六项知识在实际场景中的迁移能力",
+      "key_question": "哪些设计决策有依据，哪些只是直觉？",
+      "scenario": "选择一个通用 Web 产品流程，审视产品目标、交互风险与视觉层级",
+      "source_ids": [
+        "nng",
+        "hig",
+        "gov"
+      ],
+      "prerequisites": [
+        "P17",
+        "U17",
+        "V17",
+        "P18",
+        "U18",
+        "V18"
+      ]
+    },
+    {
+      "day": 64,
+      "id": "P19",
+      "week": 10,
+      "kind": "lesson",
+      "track": "product",
+      "level": "综合",
+      "week_theme": "协作系统与并发状态",
+      "title": "产品漏斗与任务完成率",
+      "objective": "区分业务 KPI 与任务效率指标",
+      "key_question": "完成更快和完成更多是否相同？",
+      "scenario": "线上报价流程漏斗",
+      "source_ids": [
+        "govprinciples",
+        "gov",
+        "nng"
+      ],
+      "prerequisites": [
+        "P18"
+      ]
+    },
+    {
+      "day": 65,
+      "id": "U19",
+      "week": 10,
+      "kind": "lesson",
+      "track": "ux",
+      "level": "综合",
+      "week_theme": "协作系统与并发状态",
+      "title": "角色权限与操作可见性",
+      "objective": "区分隐藏、禁用、拒绝与提示策略",
+      "key_question": "用户看不到按钮就解决权限问题了吗？",
+      "scenario": "审批角色只读某些字段",
+      "source_ids": [
+        "nng",
+        "gov",
+        "hig"
+      ],
+      "prerequisites": [
+        "U18"
+      ]
+    },
+    {
+      "day": 66,
+      "id": "V19",
+      "week": 10,
+      "kind": "lesson",
+      "track": "visual",
+      "level": "综合",
+      "week_theme": "协作系统与并发状态",
+      "title": "数据可视化与图表选择",
+      "objective": "根据比较、趋势、组成选择合适图形",
+      "key_question": "什么时候用表格比图表更好？",
+      "scenario": "业务量与收入趋势报表",
+      "source_ids": [
+        "hig",
+        "material",
+        "wcag"
+      ],
+      "prerequisites": [
+        "V18"
+      ]
+    },
+    {
+      "day": 67,
+      "id": "P20",
+      "week": 10,
+      "kind": "lesson",
+      "track": "product",
+      "level": "综合",
+      "week_theme": "协作系统与并发状态",
+      "title": "服务蓝图与端到端体验",
+      "objective": "连通前台任务、后台服务与人工环节",
+      "key_question": "页面之外的阻力如何识别？",
+      "scenario": "客户提交请求后由运营人工处理",
+      "source_ids": [
+        "govprinciples",
+        "gov",
+        "nng"
+      ],
+      "prerequisites": [
+        "P19"
+      ]
+    },
+    {
+      "day": 68,
+      "id": "U20",
+      "week": 10,
+      "kind": "lesson",
+      "track": "ux",
+      "level": "综合",
+      "week_theme": "协作系统与并发状态",
+      "title": "异步并发与冲突处理",
+      "objective": "设计版本冲突、重复提交和长请求状态",
+      "key_question": "两个用户同时编辑该怎么办？",
+      "scenario": "财务记录被其他人先修改",
+      "source_ids": [
+        "nng",
+        "gov",
+        "hig"
+      ],
+      "prerequisites": [
+        "U19"
+      ]
+    },
+    {
+      "day": 69,
+      "id": "V20",
+      "week": 10,
+      "kind": "lesson",
+      "track": "visual",
+      "level": "综合",
+      "week_theme": "协作系统与并发状态",
+      "title": "财务与数量信息排版",
+      "objective": "用对齐、数字格式和强调级别提升核对效率",
+      "key_question": "金额列如何方便跨行比较？",
+      "scenario": "多币种金额及负值统计",
+      "source_ids": [
+        "hig",
+        "material",
+        "wcag"
+      ],
+      "prerequisites": [
+        "V19"
+      ]
+    },
+    {
+      "day": 70,
+      "id": "R10",
+      "week": 10,
+      "kind": "review",
+      "track": "integrated",
+      "level": "复盘",
+      "week_theme": "协作系统与并发状态",
+      "title": "第 10 周复盘：协作系统与并发状态",
+      "objective": "检验一周六项知识在实际场景中的迁移能力",
+      "key_question": "哪些设计决策有依据，哪些只是直觉？",
+      "scenario": "选择一个通用 Web 产品流程，审视产品目标、交互风险与视觉层级",
+      "source_ids": [
+        "nng",
+        "hig",
+        "gov"
+      ],
+      "prerequisites": [
+        "P19",
+        "U19",
+        "V19",
+        "P20",
+        "U20",
+        "V20"
+      ]
+    },
+    {
+      "day": 71,
+      "id": "P21",
+      "week": 11,
+      "kind": "lesson",
+      "track": "product",
+      "level": "综合",
+      "week_theme": "跨端、一致性与无障碍",
+      "title": "信息架构验证方法",
+      "objective": "选择树测试、卡片分类等验证手段",
+      "key_question": "导航分类是不是只靠内部讨论？",
+      "scenario": "用户找不到报关相关页面",
+      "source_ids": [
+        "govprinciples",
+        "gov",
+        "nng"
+      ],
+      "prerequisites": [
+        "P20"
+      ]
+    },
+    {
+      "day": 72,
+      "id": "U21",
+      "week": 11,
+      "kind": "lesson",
+      "track": "ux",
+      "level": "综合",
+      "week_theme": "跨端、一致性与无障碍",
+      "title": "国际化与响应式交互",
+      "objective": "应对文案增长、长标签、输入方式差异",
+      "key_question": "翻译后按钮放不下如何处理？",
+      "scenario": "同一页面有中英文和移动端",
+      "source_ids": [
+        "nng",
+        "gov",
+        "hig"
+      ],
+      "prerequisites": [
+        "U20"
+      ]
+    },
+    {
+      "day": 73,
+      "id": "V21",
+      "week": 11,
+      "kind": "lesson",
+      "track": "visual",
+      "level": "综合",
+      "week_theme": "跨端、一致性与无障碍",
+      "title": "设计 Token 与语义变量",
+      "objective": "将视觉决策转成稳定可复用的变量",
+      "key_question": "为什么直接写色值难以维护？",
+      "scenario": "大型系统的多个视觉主题",
+      "source_ids": [
+        "hig",
+        "material",
+        "wcag"
+      ],
+      "prerequisites": [
+        "V20"
+      ]
+    },
+    {
+      "day": 74,
+      "id": "P22",
+      "week": 11,
+      "kind": "lesson",
+      "track": "product",
+      "level": "综合",
+      "week_theme": "跨端、一致性与无障碍",
+      "title": "设计评审与论证",
+      "objective": "把问题、依据、方案、成本和风险讲清楚",
+      "key_question": "评审里“我觉得好看”不足在哪里？",
+      "scenario": "产品与开发对列表布局争议",
+      "source_ids": [
+        "govprinciples",
+        "gov",
+        "nng"
+      ],
+      "prerequisites": [
+        "P21"
+      ]
+    },
+    {
+      "day": 75,
+      "id": "U22",
+      "week": 11,
+      "kind": "lesson",
+      "track": "ux",
+      "level": "综合",
+      "week_theme": "跨端、一致性与无障碍",
+      "title": "WCAG 与可访问性基础",
+      "objective": "把可感知、可操作、可理解落实到控件",
+      "key_question": "无障碍是否只等于颜色对比？",
+      "scenario": "复杂表单与模态框",
+      "source_ids": [
+        "wcag",
+        "nng"
+      ],
+      "prerequisites": [
+        "U21"
+      ]
+    },
+    {
+      "day": 76,
+      "id": "V22",
+      "week": 11,
+      "kind": "lesson",
+      "track": "visual",
+      "level": "综合",
+      "week_theme": "跨端、一致性与无障碍",
+      "title": "深浅主题与状态一致性",
+      "objective": "审视语义色在不同主题的识别效果",
+      "key_question": "暗色主题为什么不能只是反色？",
+      "scenario": "控制台支持深浅主题",
+      "source_ids": [
+        "hig",
+        "material",
+        "wcag"
+      ],
+      "prerequisites": [
+        "V21"
+      ]
+    },
+    {
+      "day": 77,
+      "id": "R11",
+      "week": 11,
+      "kind": "review",
+      "track": "integrated",
+      "level": "复盘",
+      "week_theme": "跨端、一致性与无障碍",
+      "title": "第 11 周复盘：跨端、一致性与无障碍",
+      "objective": "检验一周六项知识在实际场景中的迁移能力",
+      "key_question": "哪些设计决策有依据，哪些只是直觉？",
+      "scenario": "选择一个通用 Web 产品流程，审视产品目标、交互风险与视觉层级",
+      "source_ids": [
+        "nng",
+        "hig",
+        "gov"
+      ],
+      "prerequisites": [
+        "P21",
+        "U21",
+        "V21",
+        "P22",
+        "U22",
+        "V22"
+      ]
+    },
+    {
+      "day": 78,
+      "id": "P23",
+      "week": 12,
+      "kind": "lesson",
+      "track": "product",
+      "level": "综合",
+      "week_theme": "验证设计质量与综合能力",
+      "title": "可用性测试与任务脚本",
+      "objective": "定义真实任务、观察指标和记录方法",
+      "key_question": "用户说喜欢是否等于任务可用？",
+      "scenario": "验证新查询流程",
+      "source_ids": [
+        "govprinciples",
+        "gov",
+        "nng"
+      ],
+      "prerequisites": [
+        "P22"
+      ]
+    },
+    {
+      "day": 79,
+      "id": "U23",
+      "week": 12,
+      "kind": "lesson",
+      "track": "ux",
+      "level": "综合",
+      "week_theme": "验证设计质量与综合能力",
+      "title": "加载、空状态和错误恢复",
+      "objective": "完整设计异步状态及可采取行动",
+      "key_question": "空表格有几种不同含义？",
+      "scenario": "列表首次加载与搜索无结果",
+      "source_ids": [
+        "nng",
+        "gov",
+        "hig"
+      ],
+      "prerequisites": [
+        "U22"
+      ]
+    },
+    {
+      "day": 80,
+      "id": "V23",
+      "week": 12,
+      "kind": "lesson",
+      "track": "visual",
+      "level": "综合",
+      "week_theme": "验证设计质量与综合能力",
+      "title": "跨页面视觉一致性审计",
+      "objective": "识别排版、间距、对比与组件偏差",
+      "key_question": "哪些不一致会影响信任和效率？",
+      "scenario": "同系统三个团队开发的页面",
+      "source_ids": [
+        "hig",
+        "material",
+        "wcag"
+      ],
+      "prerequisites": [
+        "V22"
+      ]
+    },
+    {
+      "day": 81,
+      "id": "P24",
+      "week": 12,
+      "kind": "lesson",
+      "track": "product",
+      "level": "综合",
+      "week_theme": "验证设计质量与综合能力",
+      "title": "需求路线图与阶段验收",
+      "objective": "将业务结果映射到可验收的交付阶段",
+      "key_question": "什么时候应终止一项投入？",
+      "scenario": "季度体验优化计划",
+      "source_ids": [
+        "govprinciples",
+        "gov",
+        "nng"
+      ],
+      "prerequisites": [
+        "P23"
+      ]
+    },
+    {
+      "day": 82,
+      "id": "U24",
+      "week": 12,
+      "kind": "lesson",
+      "track": "ux",
+      "level": "综合",
+      "week_theme": "验证设计质量与综合能力",
+      "title": "复杂抽屉与多步骤编辑",
+      "objective": "管理编辑状态、主操作、退出和恢复",
+      "key_question": "复杂编辑应在弹窗还是独立页？",
+      "scenario": "抽屉中包含表单、表格和审核",
+      "source_ids": [
+        "nng",
+        "gov",
+        "hig"
+      ],
+      "prerequisites": [
+        "U23"
+      ]
+    },
+    {
+      "day": 83,
+      "id": "V24",
+      "week": 12,
+      "kind": "lesson",
+      "track": "visual",
+      "level": "综合",
+      "week_theme": "验证设计质量与综合能力",
+      "title": "专业 UI 评审表达",
+      "objective": "用证据和权衡写出可执行的设计建议",
+      "key_question": "怎样把“太乱”转换为可验证问题？",
+      "scenario": "评审一张完整的管理后台页面",
+      "source_ids": [
+        "hig",
+        "material",
+        "wcag"
+      ],
+      "prerequisites": [
+        "V23"
+      ]
+    },
+    {
+      "day": 84,
+      "id": "R12",
+      "week": 12,
+      "kind": "review",
+      "track": "integrated",
+      "level": "复盘",
+      "week_theme": "验证设计质量与综合能力",
+      "title": "第 12 周复盘：验证设计质量与综合能力",
+      "objective": "检验一周六项知识在实际场景中的迁移能力",
+      "key_question": "哪些设计决策有依据，哪些只是直觉？",
+      "scenario": "选择一个通用 Web 产品流程，审视产品目标、交互风险与视觉层级",
+      "source_ids": [
+        "nng",
+        "hig",
+        "gov"
+      ],
+      "prerequisites": [
+        "P23",
+        "U23",
+        "V23",
+        "P24",
+        "U24",
+        "V24"
+      ]
+    },
+    {
+      "day": 85,
+      "id": "X01",
+      "week": 13,
+      "kind": "practice",
+      "track": "integrated",
+      "level": "实战",
+      "week_theme": "综合设计实战",
+      "title": "综合任务一：从功能要求还原用户问题",
+      "objective": "建立问题陈述、用户任务、约束与可验证目标",
+      "key_question": "一个团队要求给列表新增 12 个按钮",
+      "scenario": "产品与交互联合训练",
+      "source_ids": [
+        "nng",
+        "wcag",
+        "gov",
+        "hig"
+      ],
+      "prerequisites": [
+        "P24",
+        "U24",
+        "V24"
+      ]
+    },
+    {
+      "day": 86,
+      "id": "X02",
+      "week": 13,
+      "kind": "practice",
+      "track": "integrated",
+      "level": "实战",
+      "week_theme": "综合设计实战",
+      "title": "综合任务二：审查复杂查询流程",
+      "objective": "审视过滤、批量输入、错误恢复及可达性",
+      "key_question": "跨端的订单列表提供多条件查询",
+      "scenario": "交互与信息架构联合训练",
+      "source_ids": [
+        "nng",
+        "wcag",
+        "gov",
+        "hig"
+      ],
+      "prerequisites": [
+        "P24",
+        "U24",
+        "V24"
+      ]
+    },
+    {
+      "day": 87,
+      "id": "X03",
+      "week": 13,
+      "kind": "practice",
+      "track": "integrated",
+      "level": "实战",
+      "week_theme": "综合设计实战",
+      "title": "综合任务三：重构关键操作反馈",
+      "objective": "覆盖提交、加载、失败、取消、重复操作状态",
+      "key_question": "审批表单在网络波动时提交",
+      "scenario": "交互与工程约束联合训练",
+      "source_ids": [
+        "nng",
+        "wcag",
+        "gov",
+        "hig"
+      ],
+      "prerequisites": [
+        "P24",
+        "U24",
+        "V24"
+      ]
+    },
+    {
+      "day": 88,
+      "id": "X04",
+      "week": 13,
+      "kind": "practice",
+      "track": "integrated",
+      "level": "实战",
+      "week_theme": "综合设计实战",
+      "title": "综合任务四：视觉一致性与密度审计",
+      "objective": "审查层级、间距、控件、色彩、对比度",
+      "key_question": "1280px 企业后台操作页",
+      "scenario": "视觉与可访问性联合训练",
+      "source_ids": [
+        "nng",
+        "wcag",
+        "gov",
+        "hig"
+      ],
+      "prerequisites": [
+        "P24",
+        "U24",
+        "V24"
+      ]
+    },
+    {
+      "day": 89,
+      "id": "X05",
+      "week": 13,
+      "kind": "practice",
+      "track": "integrated",
+      "level": "实战",
+      "week_theme": "综合设计实战",
+      "title": "综合任务五：写一份设计评审报告",
+      "objective": "给出问题严重度、依据、备选方案及验收",
+      "key_question": "一个真实或虚拟产品的详情编辑页",
+      "scenario": "跨专业表达训练",
+      "source_ids": [
+        "nng",
+        "wcag",
+        "gov",
+        "hig"
+      ],
+      "prerequisites": [
+        "P24",
+        "U24",
+        "V24"
+      ]
+    },
+    {
+      "day": 90,
+      "id": "C01",
+      "week": 13,
+      "kind": "capstone",
+      "track": "integrated",
+      "level": "结业",
+      "week_theme": "综合设计实战",
+      "title": "90 次学习结业综合评估",
+      "objective": "独立完成产品问题定义、交互方案、视觉规则和验证计划，并反思学习盲区",
+      "key_question": "你能说明设计依据、适用边界和方案代价吗？",
+      "scenario": "从三个候选案例任选：B2B 订单管理、消费者订阅服务、移动端生活服务预约",
+      "source_ids": [
+        "nng",
+        "wcag",
+        "gov",
+        "hig"
+      ],
+      "prerequisites": [
+        "X01",
+        "X02",
+        "X03",
+        "X04",
+        "X05"
+      ]
+    }
+  ]
+}

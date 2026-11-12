@@ -1,0 +1,25 @@
+#!/usr/bin/env node
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const c=JSON.parse(fs.readFileSync(path.join(root,'data/curriculum.json'),'utf8'));
+const checks=[];
+const assert=(cond,description)=>{checks.push([Boolean(cond),description]);};
+const all=c.sessions;
+assert(all.length===90,'总计 90 次');
+assert(all.every((s,i)=>s.day===i+1),'课程序号连续');
+assert(new Set(all.map(x=>x.id)).size===90,'课程 ID 唯一');
+for(const track of ['product','ux','visual']) assert(all.filter(x=>x.track===track&&x.kind==='lesson').length===24,`${track} 24 节`);
+assert(all.filter(x=>x.kind==='lesson').length===72,'72 节新课');
+assert(all.filter(x=>x.kind==='review').length===12,'12 次周复盘');
+assert(all.filter(x=>x.kind==='practice').length===5,'5 次实战');
+assert(all.filter(x=>x.kind==='capstone').length===1,'1 次结业评估');
+assert(all.filter(x=>x.kind==='review').every(x=>x.day===x.week*7),'周复盘在每第七次');
+assert(all.filter(x=>x.kind==='lesson').every(x=>x.title&&x.objective&&x.key_question&&x.scenario&&x.source_ids.length>0),'知识点包含完整教学元数据');
+const known=new Set(all.map(x=>x.id));
+assert(all.every(x=>x.prerequisites.every(id=>known.has(id))), '先修主题均存在');
+assert(all.every(x=>x.prerequisites.every(id=>all.find(y=>y.id===id).day<x.day)), '先修课程必须早于当前课程');
+const output={ok:checks.every(x=>x[0]),checks:checks.map(([pass,description])=>({pass,description}))};
+console.log(JSON.stringify(output,null,2));
+if(!output.ok) process.exitCode=1;
